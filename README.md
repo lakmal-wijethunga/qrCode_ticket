@@ -14,7 +14,7 @@ verify each ticket powered by Fastapi
 Clone repository
 
 ```bash
-git clone https://github.com/sadjadeb/qrCode_ticket.git
+git clone https://github.com/lakmal-wijethunga/qrCode_ticket.git
 ```
 
 ### Prerequisite
@@ -23,8 +23,8 @@ Create an environment to run the app
 
 ```bash
 cd qrCode_ticket/
-sudo apt-get install virtualenv
-virtualenv venv
+sudo apt-get install pipenv
+pipenv venv
 source venv/bin/activate
 cd src/
 ```
